@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001-HTMLControls", "001-HTMLControls\001-HTMLControls.csproj", "{9DA189A5-EFF9-4AC2-A6EC-D5D19D42E304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002-ASPX", "002-ASPX\002-ASPX.csproj", "{D05CBCEC-20BE-4858-BA1C-A5EF958DFD87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DA189A5-EFF9-4AC2-A6EC-D5D19D42E304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA189A5-EFF9-4AC2-A6EC-D5D19D42E304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA189A5-EFF9-4AC2-A6EC-D5D19D42E304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA189A5-EFF9-4AC2-A6EC-D5D19D42E304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05CBCEC-20BE-4858-BA1C-A5EF958DFD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05CBCEC-20BE-4858-BA1C-A5EF958DFD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05CBCEC-20BE-4858-BA1C-A5EF958DFD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05CBCEC-20BE-4858-BA1C-A5EF958DFD87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

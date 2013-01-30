@@ -1,0 +1,23 @@
+﻿/*elemento*/
+h1
+{
+    text-align: center;
+    font-size: 200%;
+}
+
+p
+{
+    text-align: justify;
+}
+
+/*classe*/
+.esquerda
+{
+    text-align: left;
+}
+
+#paragrafo
+{
+    background-color: Yellow;
+    color: Red;
+}
