@@ -1,21 +1,25 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm3.aspx.cs" Inherits="_001_App.WebForm3" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_001_MasterPage.Site" %>
 
 <%@ Register Src="Menu.ascx" TagName="Menu" TagPrefix="uc1" %>
 <%@ Register Src="Rodape.ascx" TagName="Rodape" TagPrefix="uc2" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <uc1:Menu ID="Menu1" runat="server" />
+     <uc1:Menu ID="Menu1" runat="server" />
     <div id="conteudo">
-        <h1>
-            WebForm3</h1>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
     </div>
-    <uc2:Rodape ID="Rodape1" runat="server" />
+      <uc2:Rodape ID="Rodape1" runat="server" />
     </form>
 </body>
 </html>

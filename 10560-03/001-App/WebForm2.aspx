@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="_001_App.WebForm2" %>
 
+<%@ Register Src="Menu.ascx" TagName="Menu" TagPrefix="uc1" %>
+<%@ Register Src="Rodape.ascx" TagName="Rodape" TagPrefix="uc2" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -8,19 +10,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="menu">
-        <ul>
-            <li><a href="WebForm1.aspx">Página 1</a></li>
-            <li><a href="WebForm2.aspx">Página 2</a></li>
-            <li><a href="WebForm3.aspx">Página 3</a></li>
-        </ul>
-    </div>
+    <uc1:Menu ID="Menu1" runat="server" />
     <div id="conteudo">
         <h1>
             WebForm2</h1>
     </div>
-    <div id="rodape">
-        by Agnaldo &copy; 2013 &middot; agnaldo@50minutos.com.br</div>
+    <uc2:Rodape ID="Rodape1" runat="server" />
     </form>
 </body>
 </html>
