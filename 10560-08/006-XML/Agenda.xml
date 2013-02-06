@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<agenda>
+  <pessoa>
+    <nome>ADÃO</nome>
+    <email>ADAO@EDEN.CEU</email>
+  </pessoa>
+  <pessoa>
+    <nome>EVA</nome>
+    <email>EVA@EDEN.CEU</email>
+  </pessoa>
+</agenda>

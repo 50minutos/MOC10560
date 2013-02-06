@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<agenda>
+    <pessoa>
+        <nome>adão</nome>
+        <email>adao@eden.ceu</email>
+    </pessoa>
+    <pessoa>
+        <nome>eva</nome>
+        <email>eva@eden.ceu</email>
+    </pessoa>
+    <pessoa>
+        <nome>caim</nome>
+        <email>jr@eden.ceu</email>
+    </pessoa>
+    <pessoa>
+        <nome>abel</nome>
+        <email>abelardo@eden.ceu</email>
+    </pessoa>
+</agenda>

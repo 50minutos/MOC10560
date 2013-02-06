@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="master" Class="ModeloDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=master;Integrated Security=True" SettingsObjectName="_006_LinqToSql.Properties.Settings" SettingsPropertyName="masterConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PESSOA" Member="Pessoas">
+    <Type Name="Pessoa">
+      <Column Name="COD_PESSOA" Member="Cod" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME_PESSOA" Member="Nome" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SEXO_PESSOA" Member="Sexo" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
