@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d11dac6a-7518-4358-8594-df684387a7fd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2780/PessoaService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PessoaService.xsd" MetadataType="Schema" ID="632a68ec-c79d-4e75-89f1-80a3999e0e1d" SourceId="1" SourceUrl="http://localhost:2780/PessoaService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PessoaService1.xsd" MetadataType="Schema" ID="a86e9728-6140-4e0d-b93c-7c469c1bd30a" SourceId="1" SourceUrl="http://localhost:2780/PessoaService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PessoaService2.xsd" MetadataType="Schema" ID="29b0eecc-dbcf-4dc7-8745-cd06c99824be" SourceId="1" SourceUrl="http://localhost:2780/PessoaService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PessoaService.wsdl" MetadataType="Wsdl" ID="87dd4054-2f44-48f3-a9dc-87e19ed1cfb5" SourceId="1" SourceUrl="http://localhost:2780/PessoaService.svc?wsdl" />
+    <MetadataFile FileName="PessoaService3.xsd" MetadataType="Schema" ID="88f4d820-e7c0-4e0d-869f-ec1281a896bb" SourceId="1" SourceUrl="http://localhost:2780/PessoaService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PessoaService4.xsd" MetadataType="Schema" ID="b7e2f941-94dd-4978-8e98-5d3861791ede" SourceId="1" SourceUrl="http://localhost:2780/PessoaService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PessoaService.disco" MetadataType="Disco" ID="21cae8a6-928a-444e-9017-f02efe3a737c" SourceId="1" SourceUrl="http://localhost:2780/PessoaService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
